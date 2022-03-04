@@ -1,18 +1,21 @@
 import React from 'react'
+import Link from 'next/link'
 
 function NavBar() {
   return (
-    <nav>
-        <a>
-            GCM
-        </a>
-        <ul>
-            <li>
-                <a>All posts</a>
-            </li>
-        </ul>
-    </nav>
-  )
+      <nav>
+          <Link href="/">
+              <a>GCM</a>
+          </Link>
+          <ul>
+              <li>
+                  <Link href="/posts">
+                      <a>All posts</a>
+                  </Link>
+              </li>
+          </ul>
+      </nav>
+  );
 }
 
 export default NavBar
