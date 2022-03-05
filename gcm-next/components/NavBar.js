@@ -6,7 +6,7 @@ function NavBar() {
         <nav className="navBar">
             <div className="container">
                 <Link href="/">
-                    <a className="title">GCM</a>
+                    <a className="title">GCS</a>
                 </Link>
                 <ul>
                     <li>
