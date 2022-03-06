@@ -1,5 +1,5 @@
 import React from "react";
-import AllPostsList from "../components/AllPostsList";
+import AllPostsList from "../../components/AllPostsList";
 import axios from "axios";
 
 function Posts({ posts }) {
